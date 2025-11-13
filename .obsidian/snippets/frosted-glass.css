@@ -1,0 +1,42 @@
+/*
+ * Filename: frosted-glass-theme.css
+ * Author: Community Snippet
+ * Description: Makes the Obsidian window transparent with a frosted glass blur effect.
+*/
+
+body {
+  /* For Default Theme */
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-modifier-border: transparent;
+  /* For Things Theme */
+  --color-base-00: transparent;
+  /* For Minimal Theme */
+  --color-base-background: transparent;
+  --color-base-border: transparent;
+}
+
+.workspace-split.mod-root {
+  /* Main background color with transparency */
+  /* RGBA format: (Red, Green, Blue, Alpha/Opacity) */
+  /* 0.6 means 60% opaque. Adjust this value between 0.0 (fully transparent) and 1.0 (fully opaque) */
+  background-color: rgba(30, 30, 30, 0.6);
+  
+  /* The magic for the blur effect */
+  /* Adjust the pixel value to increase or decrease the blur intensity */
+  backdrop-filter: blur(20px);
+}
+
+/* Make sidebars and other UI elements transparent too */
+.workspace-ribbon,
+.mod-left-split,
+.mod-right-split,
+.status-bar {
+    background-color: transparent !-important;
+}
+
+/* Ensure pop-up menus and prompts also have the effect */
+.menu, .prompt {
+    background-color: rgba(30, 30, 30, 0.7) !important;
+    backdrop-filter: blur(15px) !important;
+}

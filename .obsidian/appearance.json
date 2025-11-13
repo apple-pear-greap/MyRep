@@ -1,4 +1,11 @@
 {
   "theme": "obsidian",
-  "accentColor": "#32f5d5"
+  "accentColor": "#32f5d5",
+  "interfaceFontFamily": "思源宋体 CN",
+  "textFontFamily": "JetBrains Mono,思源宋体 CN",
+  "monospaceFontFamily": "JetBrains Mono,思源宋体 CN,Noto Sans Mono",
+  "baseFontSize": 20,
+  "cssTheme": "Obsidian Nord",
+  "nativeMenus": true,
+  "enabledCssSnippets": []
 }
