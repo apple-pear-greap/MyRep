@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学相关/高等代数/Gershgorin圆定理.md",
-                "mode": "preview",
+                "file": "数学相关/常微分方程笔记/Gronwall不等式.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gershgorin圆定理"
+              "title": "Gronwall不等式"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bec7d37577cea542",
@@ -171,14 +170,26 @@
   },
   "active": "183934fbc4b6fd84",
   "lastOpenFiles": [
-    "数学相关/高等代数/Gershgorin圆定理.md",
-    "数学相关/高等代数",
+    "数学相关/常微分方程笔记/How to solve High order ODE with Picard therom.pdf",
+    "数学相关/常微分方程笔记/ODE习题.md",
+    "数学相关/常微分方程笔记/Gemini Answer.html",
+    "数学相关/常微分方程笔记/Gemini Answer_files/tex-svg.js",
+    "数学相关/常微分方程笔记/Gemini Answer_files",
+    "数学相关/常微分方程笔记/ODE学习笔记.md",
+    "数学相关/数学分析笔记/数分作业（询问了ai的题目）.md",
+    "数学相关/概率论笔记/报童问题（待解决）.md",
+    "数学相关/概率论笔记/概率论课堂笔记.md",
+    "数学相关/常微分方程笔记/Arzela-Ascoli 定理.md",
     "数学相关/常微分方程笔记/Gronwall不等式.md",
     "数学相关/常微分方程笔记/Picard定理的推广.md",
+    "数学相关/常微分方程笔记/皮亚诺定理.md",
+    "Pasted image 20251117193839.png",
+    "Pasted image 20251117192628.png",
+    "Screenshot 2025-11-17 at 19-14-08 Peano 存在性定理 - 维基百科 --- Peano existence theorem - Wikipedia.png",
+    "数学相关/概率论笔记/泊松分布的部分和.md",
+    "数学相关/高等代数/Gershgorin圆定理.md",
+    "数学相关/高等代数",
     "Pasted image 20251112191340.png",
-    "数学相关/常微分方程笔记/ODE学习笔记.md",
-    "数学相关/常微分方程笔记/ODE习题.md",
-    "数学相关/概率论笔记/概率论课堂笔记.md",
     "数学相关/数学分析笔记/含参变量积分.md",
     "数学相关/常微分方程笔记/常微分方程教程 第三版 (丁同仁，李承治) (Z-Library).pdf",
     "数学相关/全国大学生数学竞赛解析教程（数学类）数学分析.上册 (佘志坤 主编) (Z-Library).pdf",
@@ -186,14 +197,10 @@
     "E-books/Others/微观经济学原理 第3版 (（中国）刘文忻，吴汉洪，尹伯成，高鸿业, 高鸿业 名誉主编，本书编写组 编, 高鸿业名誉主编 etc.) (Z-Library).pdf",
     "数学相关/fcitx5-nord/README.md",
     "数学相关/概率论笔记/概率论基础 第三版 (李贤平) (Z-Library) (1).pdf",
-    "数学相关/fcitx5-nord/Nord-Light/theme.conf",
     "数学相关/fcitx5-nord/Nord-Light/radio.png",
     "数学相关/fcitx5-nord/Nord-Light/arrow.png",
-    "数学相关/fcitx5-nord/Nord-Light",
-    "数学相关/fcitx5-nord/Nord-Dark/theme.conf",
     "数学相关/fcitx5-nord/Nord-Dark/radio.png",
     "数学相关/fcitx5-nord/Nord-Dark/arrow.png",
-    "数学相关/fcitx5-nord/Nord-Dark",
     "隐函数定理.md",
     "未命名.md",
     "数学相关/数值分析笔记/数值分析笔记.md",
