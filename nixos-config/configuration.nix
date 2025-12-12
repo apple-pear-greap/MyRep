@@ -85,7 +85,8 @@
       PLATFORM_PROFILE_ON_AC = "performance";
       PLATFORM_PROFILE_ON_BAT = "low-power";
       
-      # 磁盘设备
+      # 磁盘设备 - 根据实际硬件调整
+      # Adjust based on your actual disk devices (use 'lsblk' to check)
       DISK_DEVICES = "nvme0n1 sda";
       DISK_IOSCHED = "mq-deadline";
       
@@ -106,10 +107,8 @@
     };
   };
 
-  # 自动 CPU 频率调节
-  services.auto-cpufreq = {
-    enable = false;  # TLP 和 auto-cpufreq 冲突，只启用其中一个
-  };
+  # 注意：不要同时启用 TLP 和 auto-cpufreq，它们会冲突
+  # Note: Don't enable both TLP and auto-cpufreq as they conflict
 
   # 禁用不需要的服务以节省电量
   services.thermald.enable = true;  # Intel CPU 热管理

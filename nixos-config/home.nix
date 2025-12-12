@@ -46,6 +46,8 @@
   # ===== Git 配置 =====
   programs.git = {
     enable = true;
+    # TODO: 修改为你的真实姓名和邮箱
+    # Change these to your actual name and email
     userName = "Your Name";
     userEmail = "your.email@example.com";
     extraConfig = {
@@ -68,6 +70,8 @@
       cat = "bat";
       
       # NixOS 快捷命令
+      # TODO: 将 your-hostname 替换为你在 flake.nix 中设置的主机名
+      # Replace 'your-hostname' with the hostname you set in flake.nix
       rebuild = "sudo nixos-rebuild switch --flake /home/student/nixos-config#your-hostname";
       update = "sudo nix flake update /home/student/nixos-config";
       
