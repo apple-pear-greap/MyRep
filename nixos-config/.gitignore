@@ -1,0 +1,24 @@
+# .gitignore for NixOS configuration
+
+# Build results
+result
+result-*
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+
+# Personal files (uncomment if you don't want to track these)
+# hardware-configuration.nix
